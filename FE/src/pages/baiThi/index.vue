@@ -484,21 +484,21 @@ export default {
                         style="background-color: #8b4513; border-radius: 5px; padding: 5px; text-align: center;"
                       >
                         <span style="margin-left: 5px; color: #fff; font-weight: bold;">
-                            Thẻ Đồng
+                            Đồng
                         </span>
                       </div>
                       <div v-else-if="data.item.diemSo <= 60 && data.item.diemSo >= 31"
                         style="background-color: #b0c4de; border-radius: 5px; padding: 5px; text-align: center;"
                       >
                         <span style="margin-left: 5px; color: #fff; font-weight: bold;">
-                            Thẻ Bạc
+                            Bạc
                         </span>
                       </div>
                       <div v-else
                         style="background-color: #FFDF00; border-radius: 5px; padding: 5px; text-align: center;"
                       >
                         <span style="margin-left: 5px; color: #000; font-weight: bold;">
-                            Thẻ Vàng
+                            Vàng
                         </span>
                       </div>
                     </template>
